@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: Ariel, "Helvetica Neue",
+               Helvetica, sans-serif;
+  font-size: 17px;
+  color:rgb(160, 126, 126);
+  line-height: 1.6;
+}
+
+#showcase{
+  background-image: url("./header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size: 3em;
+  padding:0 20px;
+  line-height:1.5em;
+}
+
+#showcase .buttom{
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(25, 13, 61);
+  /* border: #926239 1px solid; */
+  padding: 50px 20px;
+  /* border-radius: 10px; */
+}
+
+/* unvisited link */
+#showcase a:link {
+  color: rgb(160, 126, 126);
+}
+
+/* visited link */
+#showcase a:visited {
+  color: rgb(160, 126, 126);
+}
+
+#showcase a{
+  transition: all 500ms;
+}
+/* mouse over link */
+#showcase a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+
+/* selected link */
+#showcase a:active {
+  color: rgb(160, 126, 126);
+}
